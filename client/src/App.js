@@ -1,5 +1,5 @@
 import React from "react";
-import Jobs from "./components/Jobs";
+import Jobs from "./containers/Jobs";
 import GraphqlProvider from "./graphql/Provider";
 
 const App = () => {
