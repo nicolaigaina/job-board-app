@@ -17,3 +17,23 @@ export const LOAD_JOBS = gql`
     }
   }
 `;
+
+export const LOAD_JOB = gql`
+  query Job($id: ID!) {
+    job(id: $id) {
+      title
+      location
+      url
+      type
+      description
+      created_at
+      company {
+        name
+        logo_url
+        url
+      }
+      how_to_apply
+      id
+    }
+  }
+`;
