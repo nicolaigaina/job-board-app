@@ -1,0 +1,8 @@
+{
+  "name": "graphql-github-board",
+  "version": "1.0.0",
+  "description": "UI interface for displaying job opportunities built with GraphQL and React",
+  "main": "app.js",
+  "author": "Nicolai Gaina",
+  "license": "MIT"
+}
