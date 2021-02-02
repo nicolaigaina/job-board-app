@@ -10,6 +10,7 @@ module.exports = gql`
     location: String!
     created_at: String!
     how_to_apply: String!
+    type: String!
   }
 
   type Company {
