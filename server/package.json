@@ -1,7 +1,12 @@
 {
-  "name": "graphql-github-board",
+  "name": "graphql-server",
   "version": "1.0.0",
-  "description": "UI interface for displaying job opportunities built with GraphQL and React",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "node src/app.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "description": "GraphQL proxy server",
   "main": "app.js",
   "author": "Nicolai Gaina",
   "license": "MIT",
